@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+}
+
+h2, a, p  {
+
+    font-family: Cairo,sans-serif;
+    font: bold;
+
+    background-color: whitesmoke;
+    color: rgba(57, 53, 53, 0.837);
+    padding: 10px;
+
+    border-radius: 8px;
+}
+
+#div1  {
+    width: 400px;
+    height: 250px;
+
+    margin: 100px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div2 {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: rgba(229, 16, 16, 0.81);
+}
+
+.fibonachi {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+}
+
+.fibonachi div {
+
+    width: 30px;
+    height: 45px;
+
+    text-align: left;
+    font-size: small;
+    font-family: Cairo,sans-serif;
+    font-weight: lighter;
+
+    flex: 1;
+    padding: 3px;
+    background-color: rgb(138, 10, 13);
+    color: whitesmoke;
+}
+.fibonachi div:nth-child(2) {
+    background-color: rgba(138, 10, 12, 0.936);
+}
+.fibonachi div:nth-child(3) {
+    background-color: rgba(138, 10, 12, 0.873);
+}
+.fibonachi div:nth-child(4) {
+    background-color: rgba(138, 10, 12, 0.822);
+    flex: 3;
+}
+.fibonachi div:nth-child(5) {
+    background-color: rgba(87, 68, 3, 0.822);
+    flex: 4;
+}
+.fibonachi div:nth-child(6) {
+    background-color: rgba(77, 87, 3, 0.822);
+    flex: 5;
+}
+.fibonachi div:nth-child(7) {
+    background-color: rgba(41, 87, 3, 0.822);
+    flex: 6;
+}
+.fibonachi div:nth-child(8) {
+    background-color: rgba(51, 108, 4, 0.857);
+    flex: 7;
+}
+.fibonachi div:nth-child(9) {
+    background-color: rgba(6, 135, 29, 0.866);
+    flex: 8;
+}
+.fibonachi div:nth-child(10) {
+    background-color: rgba(6, 168, 36, 0.866);
+    flex: 9;
+}
+
+.Menu-Easy, .Menu-E-Option {
+
+    display: flex;
+    flex: 1;
+    padding: 8px;
+
+    justify-content: center;
+    align-items: center;
+
+    
+
+    font-family: Cairo,sans-serif;
+    font-weight: lighter;
+}
+.Menu-E-Option {
+    border-right: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.535);
+
+}
